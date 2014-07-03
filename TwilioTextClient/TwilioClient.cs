@@ -15,7 +15,7 @@ namespace TwilioTextClient
         static string AuthToken = "{{ }}";
         string message = "This is an empty body";
 
-        bool SendMessage(string from, string to, string message)
+        public bool SendMessage(string from, string to, string message)
         {
             this.message = message;
             var twilio = new TwilioRestClient(AccountSid, AuthToken);

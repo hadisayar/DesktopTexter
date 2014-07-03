@@ -9,27 +9,43 @@ namespace TwilioTextClient
     class Translation
     {
 
-        string translate_number(string input)
+        public string translate_number(string input)
         {
             string finalNumber = "";
-            foreach (char c in input) 
+            string prefinalNumber = "";
+
+            List<char> inputArray = input.ToList();
+            int num = 0;
+            foreach (char c in input)
             {
                 if (c < 48 || c > 57)
                 {
-                    input.Replace(c, '0');
+                    inputArray.RemoveAt(num);
+                    Console.WriteLine(c);
+                }
+                else
+                {
+                    num++;
                 }
             }
-            if (input.Length == 10)
+            foreach (char c in inputArray)
             {
-                finalNumber = "+1" + input;
+                prefinalNumber = prefinalNumber + c;
             }
-            else if (input.Length > 10)
+
+            Console.WriteLine(input);
+
+            if (prefinalNumber.Length == 10)
             {
-                finalNumber = "+1" + input.Substring(0, 10);
+                finalNumber = "+1" + prefinalNumber;
             }
-            else 
+            else if (prefinalNumber.Length > 10)
             {
-                finalNumber = "+1" + input.PadLeft(10, '3');
+                finalNumber = "+1" + prefinalNumber.Substring(0, 10);
+            }
+            else
+            {
+                finalNumber = "+1" + prefinalNumber.PadRight(10, '3');
             }
 
             return finalNumber;

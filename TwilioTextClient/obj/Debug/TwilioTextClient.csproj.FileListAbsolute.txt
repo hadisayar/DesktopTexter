@@ -1,1 +1,14 @@
 c:\users\hadis\documents\visual studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\TwilioTextClient.exe.config
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\TwilioTextClient.exe
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\TwilioTextClient.pdb
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\RestSharp.dll
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\Twilio.Api.dll
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\RestSharp.xml
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\Twilio.Api.pdb
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\bin\Debug\Twilio.Api.xml
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.csprojResolveAssemblyReference.cache
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.Form1.resources
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.Properties.Resources.resources
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.csproj.GenerateResource.Cache
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.exe
+C:\Users\HadiS\Documents\Visual Studio 2012\Projects\TwilioTextClient\TwilioTextClient\obj\Debug\TwilioTextClient.pdb
